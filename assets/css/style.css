@@ -1,0 +1,61 @@
+.menu-page {
+    margin: 10px;
+}
+
+.menu-page .nav-tabs {
+    margin: 0 12px;
+}
+
+.nav-tabs {
+    border-bottom: none !important;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li>a:hover {
+    background: #ff0000 !important;
+    color: #fff !important;
+}
+
+.nav-tabs>li>a {
+    background: #008000 !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 0;
+}
+
+a:focus {
+    box-shadow: none !important;
+}
+
+#generateNew, #myApps {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #e6f2fe;
+}
+
+#generateNew .form-group {
+    margin-top: 40px;
+}
+
+.result {
+    color: #ff0000;
+    display: none;
+}
+
+#myApps button {
+    width: 100%;
+    border-radius: 0;
+    margin: 5px 0;
+}
+
+.modal-content {
+    min-height: 140px;
+}
+
+/* jquery-ui dialog close icon */
+
+.ui-dialog .ui-dialog-titlebar-close{
+    display: inline-block !important;
+}
+.ui-dialog .ui-dialog-titlebar-close span{
+	margin: -8px !important
+}
